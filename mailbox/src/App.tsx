@@ -27,18 +27,15 @@ export function App() {
               ? <image src={reactLynxLogo} className='Logo--react' />
               : <image src={lynxLogo} className='Logo--lynx' />}
           </view>
-          <text className='Title'>React</text>
-          <text className='Subtitle'>on Lynx</text>
+          <text className='Title'>Oh boy ,got my mobile app </text>
+          <text className='Subtitle'>powered by me 😂</text>
         </view>
         <view className='Content'>
           <image src={arrow} className='Arrow' />
-          <text className='Description'>Tap the logo and have fun!</text>
-          <text className='Hint'>
-            Edit<text style={{ fontStyle: 'italic' }}>{' src/App.tsx '}</text>
-            to see updates!
-          </text>
+        
+         
         </view>
-        <view style={{ flex: 1 }}></view>
+       
       </view>
     </view>
   )
